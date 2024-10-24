@@ -191,7 +191,8 @@
         "openoffice_math"
     ]
   },
-  "server_software": [
+  "server_software": {
+        "server1":[
     "sthttpd",
     "Traefik",
     "darkhttpd",
@@ -231,7 +232,8 @@
     "caddy",
     "Cherokee",
     "apache"
-  ],
+  ]
+  },
   "custom_software": {
         "category": []
     }

@@ -157,5 +157,5 @@ def save_all_cves_to_csv_from_json(json_filename, csv_filename):
         print("Keine CVE-Daten gefunden.")
 
 # Beispielaufruf der Funktion
-save_all_cves_to_csv_from_json("cve_data.json", 'DATA_02_cvelist_base_filtered.csv')
+save_all_cves_to_csv_from_json('cve_data.json', 'DATA_02_cvelist_base_filtered.csv')
 

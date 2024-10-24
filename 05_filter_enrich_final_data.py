@@ -12,6 +12,7 @@ def clean_text(text):
     text = text.replace('\n', ' ').replace('\r', ' ')
     return text.lower()
 
+# Funktion, um die Keywords aus der Datei 'keywords.json' zu laden
 def load_keywords(filename):
     with open(filename, 'r', encoding='utf-8') as file:
         keywords = json.load(file)
@@ -42,7 +43,7 @@ error_class_keywords = {
     'Information Disclosure': ['information disclosure']
 }
 
-# Funktion, um die Kategorie basierend auf dem CPE-Namen zu bestimmen
+# Funktion, um die Applikations-Kategorie basierend auf dem CPE-Namen zu bestimmen
 def categorize_cpe_software(cpe_name):
     categories = []
     cpe_parts = cpe_name.split(':')
@@ -115,8 +116,6 @@ def filter_local_cves(input_filename, output_filename):
     categories = ['Operating Systems', 'Desktop Software', 'Server Software', 'Application Software', 'Hardware', 'Custom Software']
     for category in categories:
         df[category] = ''
-    
-    #df['Fehlerklassen Beschreibung'] = ''
     
     # Initialisiere den Fortschrittsbalken
     with tqdm(total=len(df), desc="Verarbeitung", unit="CVE", ncols=100) as pbar:
