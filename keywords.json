@@ -1,0 +1,15 @@
+{
+    "desktop_software": {
+		"category1": [
+           
+        ]
+    },
+    "server_software": {
+        "category2": [
+           
+        ]
+    },
+    "custom_software": {
+        "category3": []
+    }
+}
