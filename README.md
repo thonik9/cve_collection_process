@@ -1,6 +1,7 @@
 Skript-Reihenfolge und Ausführung
 
 Schritt 1: 01_download_cve_cwe_exploitdb_data.py
+
 Datenbanken der CVE-List, CWE-List und Exploit-DB herunterladen
 
 Schritt 2: 02_convert_cvelist_to_csv.py
