@@ -1,0 +1,50 @@
+{
+    "desktop_software": {
+        "office": [
+            
+        ],
+        "readers and viewers": [
+           
+        ],
+        "web_browsers": [
+            "beaker",
+            "brave",
+            "castor",
+            "catalyst_browse",
+            "chrome",
+            "chromium",
+            "dot",
+            "edge",
+            "elinks",
+            "firefox",
+            "icecat",
+            "konqueror",
+            "links",
+            "lynx",
+            "mercury",
+            "midori",
+            "min",
+            "netsurf",
+            "opera",
+            "pale_moon",
+            "qutebrowser",
+            "seamonkey",
+            "surf",
+            "telescope",
+            "tor_browser",
+            "tor_browser_launcher",
+            "w3m",
+            "yandex_browser"
+        ]
+    },
+    "server_software": {
+        "a1": [
+            
+        ]
+    },
+    "custom_software": {
+        "b1": [
+            
+        ]
+    }
+}

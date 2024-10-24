@@ -1,0 +1,39 @@
+{
+    "desktop_software": {
+        "office": [
+            "abiword",
+            "calligra",
+            "gnumeric",
+            "libreoffice",
+            "onlyoffice",
+            "openoffice",
+            "seamonkey",
+            "softmaker_office",
+            "wps_office"
+        ],
+        "readers and viewers": [
+            "archmage",
+            "atril",
+            "calibre",
+            "deepin_reader",
+            "emacs",
+            "evince",
+            "foxit_reader",
+            "gv",
+            "master_pdf_editor",
+            "mupdf",
+            "okular",
+            "pdf_studio",
+            "qpdf",
+            "sigil",
+            "xpdf"
+        ],
+        "web_browsers": []
+    },
+    "server_software": {
+        "": []
+    },
+    "custom_software": {
+        "category": []
+    }
+}

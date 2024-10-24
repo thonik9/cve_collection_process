@@ -1,0 +1,1 @@
+Alle Keyword-Listen müssen nach dem Verschieben/Kopieren in den Hauptordner in 'keywords.json' umbenannt werden.
